@@ -65,7 +65,7 @@ contract PuppyMint is ERC1155, Ownable {
             totalCostMilliPup
         );
 
-        // mint one (or more) sfts, using denominationPup as the tokenId
+        // mint one (or more) sfts with the given tokenId
         _mint(msg.sender, tokenId, numToMint, "");
     }
 
